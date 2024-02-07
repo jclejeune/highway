@@ -1,3 +1,3 @@
 # highway
 
-80's LCD video game
+80's LCD video game remake
