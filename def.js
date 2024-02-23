@@ -9,6 +9,11 @@ const beep = document.getElementById("path23520")
 const gas = document.getElementById("rect20241")
 //______car_filling_gas
 const car_gas = document.getElementById("path18053")
+//gameover
+const gameover = document.getElementById("path22992")
+//time_separator
+const time_separator = document.getElementById("rect23787-7")
+
 //______station_service_001
 const gas_001 = document.getElementById("g20687")
 const gas_001_a = document.getElementById("path20677")
@@ -103,10 +108,7 @@ const etat = document.getElementById("layer19")
 const ok = document.getElementById("path23030")
 const bof = document.getElementById("path23030-9")
 const ko = document.getElementById("path23213")
-//gameover
-const gameover = document.getElementById("path22992")
-//time_separator
-const time_separator = document.getElementById("rect23787-7")
+
 //score 10000
 const score_10000_a = document.getElementById("path23718")
 const score_10000_b = document.getElementById("path23720")

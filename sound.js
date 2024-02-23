@@ -1,1 +1,0 @@
-sound.style.display ="block"
