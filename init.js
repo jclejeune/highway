@@ -1,4 +1,3 @@
-//affiche game over en meme temps que ko
 gameover.style.display ="none"
 
 //etat de la voiture
@@ -52,12 +51,6 @@ accident2.style.display ="none"
 accident3.style.display ="none"
 
 
-
-score_10000.style.display ="none"
-score_1000.style.display ="none"
-score_100.style.display ="none"
-score_10.style.display ="none"
-score_1.style.display ="none"
 score_10000_a.style.display ="none"
 score_10000_b.style.display ="none"
 score_10000_c.style.display ="none"
