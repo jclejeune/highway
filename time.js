@@ -46,7 +46,6 @@ function updateClock() {
     var time = new Date();
     var hh = time.getHours();
     var mm = time.getMinutes();
-    var ss = time.getSeconds();
 
     // Formatte les heures et les minutes avec un zéro devant si nécessaire
     var hx="";
@@ -73,10 +72,10 @@ function updateClock() {
     // Affiche l'heure dans la console
     console.log(hx + "  " + xh + ":" + mx  +"  "+ xm);
 
-    if (ss%2===0){
-        time_separator.style.display ="block"
-    }else{
-        time_separator.style.display ="none"
+    if (time_separator.style.display === "block") {
+        time_separator.style.display = "none";
+    } else {
+        time_separator.style.display = "block";
     }
 
     // Affiche les chiffres individuels sur les afficheurs 7 segments
@@ -87,4 +86,4 @@ function updateClock() {
 }
 
 // Met à jour l'horloge toutes les secondes
-setInterval(updateClock, 500);
+setInterval(updateClock, 1000);
